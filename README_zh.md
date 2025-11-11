@@ -39,7 +39,7 @@
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
 
-    > Source: EMNLP 2025 Findings [[链接]](https://aclanthology.org/2025.findings-emnlp.543/) 
+    > 来源: EMNLP 2025 Findings [[链接]](https://aclanthology.org/2025.findings-emnlp.543/) 
     
     旨在解决现有AI咨询研究中，一次性生成多轮对话样本导致治疗保真度低和无法捕捉每个回应背后决策原理的挑战。CATCH框架包含两个核心组成部分：渐进式对话合成（Progressive Dialogue Synthesis）策略和记忆驱动的动态规划（Memory-Driven Dynamic Planning, MDP）思维模式。
 
@@ -53,6 +53,52 @@
     
     针对认知重构（Cognitive Restructuring, CR）这一心理治疗过程，提出了一个创新的对话框架 CRDial。该框架通过精心设计的识别与重构阶段来创建多轮对话，并由此生成了一个大规模、高质量的双语对话数据集 Crisp，用于训练认知重构对话大模型 Crispers。
 
+  * **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
+
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+
+    > 来源: EMNLP 2025 Main [[链接]](http://aclanthology.org/2025.emnlp-main.1245/)
+
+    当前用于心理健康的大语言模型（LLM）在模拟专业心理治疗（特别是叙事疗法）时缺乏真实性，并且现有的评估方法无法有效追踪治疗的进展。为此，作者提出了一个包含两大核心组件的框架来解决上述的两个问题，INT框架通过一个基于叙事疗法理论的规划流程，并结合检索增强生成（RAG）来产生专家级的治疗回应。IMA (创新时刻评估)，通过识别和量化客户话语中预示着积极转变的“创新时刻”（Innovative Moments, IMs）（分为六个亚型 ）的显著性（salience），来客观评估治疗的进展和效果。
+
+  * **PanicToCalm: A Proactive Counseling Agent for Panic Attacks**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)  
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+
+    > 来源: EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.649/)
+
+    目前的合成数据中的来访者都过于冷静，未考虑到真实咨询场景中会遇到的急性恐慌发作（Panic Attack）问题，而且现有的评估框架主要关注一般治疗质量，无法有效衡量模型在恐慌发作情景下的危机干预（First-aid-oriented intervention）特定技能。这个工作合成了基于 心理急救（PFA）原则，专注于急性恐慌发作干预的数据集 PACE。并提出了出了 PANICEVAL 评估框架，一个新的多维评估体系，不仅包括一般咨询能力，还重点评估危机干预的核心指标。
+
+  * **AuraDial: A Large-Scale Human-Centric Dialogue Dataset for Chinese AI Psychological Counseling**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)  
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+
+    > 来源: EMNLP 2025 Findings [[链接]](https://aclanthology.org/2025.findings-emnlp.155/)
+
+    现有的中文AI心理咨询数据集存在真实性不足和缺乏深度共情的问题，因为它们的“用户提问”多为人工合成或模板化，而“AI回复”缺乏人情味。为解决此问题，论文提出了 AURADIAL，一个大规模、以人为中心的中文AI心理咨询对话数据集，包含超过30万单轮和9万多轮对话。
+
+  * **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+
+    > 来源: EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.751/)
+    
+    To be updated.
+
+  * **Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions**
+
+    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+
+    > 来源: EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.1664/)
+
+    To be updated.
+
   * **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -62,6 +108,12 @@
     > 来源: arxiv  (2025.07.10) [[链接]](https://arxiv.org/abs/2507.07509)
     
     为解决中文心理咨询对话数据稀缺且现有大模型回复“套路化”的问题，该研究通过结合专家知识和大型语言模型，构建了一个大规模、高质量的中文心理支持对话数据集（CPSDD），并提出了一个由四个智能体（Profiler、Summarizer、Planner、Supporter）协作的对话系统（CADSS），以提供更精准、更具共情能力的心理支持。
+
+  * **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
+
+    > 来源: NAACL 2025 Main [[链接]](https://aclanthology.org/2025.naacl-long.250/)
+
+    To be updated.
 
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 
@@ -130,7 +182,7 @@
     ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
     ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen)
 
-    > Source: AAAI2025 / arXiv (2024.11) [[链接]](https://arxiv.org/abs/2408.12142)
+    > 来源: AAAI2025 / arXiv (2024.11) [[链接]](https://arxiv.org/abs/2408.12142)
     
     构建了目前规模最大的心理疾病诊断对话数据集 MDD-5k。该数据集通过神经-符号混合的多智能体框架生成，利用 1000 个真实匿名化的精神科病例，合成了 5000 条高质量、内容详实的医患诊断对话，并附有诊断结论和治疗建议等标签。这是首个带标注的中文心理障碍诊断对话数据集。人工评估显示，MDD-5k 数据集中合成的对话在很大程度上模拟了人类精神科诊断过程。
 
@@ -156,7 +208,7 @@
     
     ![Patient simulation](https://img.shields.io/badge/Patient_Simulation-red)
 
-    > Source: EMNLP 2024 Main [[链接]](https://aclanthology.org/2024.emnlp-main.711/)
+    > 来源: EMNLP 2024 Main [[链接]](https://aclanthology.org/2024.emnlp-main.711/)
     
     提出了PATIENT-Ψ，这是一个利用大型语言模型（LLMs）基于Prompt模拟患者以训练心理健康专业人士进行认知行为疗法（CBT）的新框架。通过构建基于CBT原则的多样化患者认知模型，并将其与LLMs结合，创建了能够模拟真实患者沟通行为的PATIENT-Ψ。
 
@@ -201,7 +253,7 @@
 
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
     
-    > Source: CSCWD 2024 [[链接]](https://arxiv.org/abs/2312.04262)
+    > 来源: CSCWD 2024 [[链接]](https://arxiv.org/abs/2312.04262)
     
     提出了一个名为PsyChat的客户端中心对话系统，旨在通过在线聊天提供心理健康支持。PsyChat包含五个模块：客户端行为识别、咨询策略选择、输入打包器、响应生成器和响应选择，旨在在与用户真实互动时，能够动态地理解用户行为并生成最恰当的回复。
 

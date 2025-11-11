@@ -35,6 +35,47 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     This work constructed a DiaCBT psychological counseling dialogue dataset consisting of multiple sessions was constructed. Cognitive concept maps were introduced to simulate more realistic clients, and manually annotated real CBT dialogue cases were used as few-shots to guide the model in data synthesis.
 
+  * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
+
+    > Source: EMNLP 2025 Findings [[Link]](https://aclanthology.org/2025.findings-emnlp.543/)
+    
+    The CATCH framework aims to address the challenges in existing AI consultation research, the low fidelity of treatment and the inability to capture the decision-making principles behind each response due to the one-time generation of multiple dialogue samples. It consists of two core components: a progressive dialogue synthesis strategy and a memory-driven dynamic planning (MDP) thinking model.
+
+  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1652/)
+    
+    Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
+
+  * **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
+
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: EMNLP 2025 Main [[Link]](http://aclanthology.org/2025.emnlp-main.1245/)
+
+    Current LLMs for mental health lack realism in simulating professional psychotherapy (especially narrative therapy), and existing assessment methods are ineffective in tracking treatment progress. To address these issues, this work propose a framework comprising two core components: the INT framework, which uses a planning process based on therapy theory and incorporates RAG to generate expert-level therapeutic responses; and the IMA, which objectively assesses treatment progress and effectiveness by identifying and quantifying the salience of "Innovative Moments" (IMs) in client discourse that foreshadow positive change.
+
+  * **PanicToCalm: A Proactive Counseling Agent for Panic Attacks**
+
+    > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.649/)
+
+    The clients in the current synthetic counsleing data are too calm and do not take into account the acute panic attack problem that will be encountered in real counseling scenarios. Moreover, the existing evaluation framework mainly focuses on general treatment quality and cannot effectively measure the model's specific skills in crisis intervention (First-aid-oriented intervention) in panic attack scenarios. This work synthesizes the dataset PACE, which focuses on acute panic attack intervention based on the principles of Psychological First Aid (PFA). And proposed the PANICEVAL evaluation framework, a new multidimensional evaluation system that not only includes general counseling capabilities, but also focuses on evaluating the core indicators of crisis intervention.
+
+  * **AuraDial: A Large-Scale Human-Centric Dialogue Dataset for Chinese AI Psychological Counseling**
+
+    > Source: EMNLP 2025 Findings [[Link]](https://aclanthology.org/2025.findings-emnlp.155/)
+
+    Existing Chinese AI-powered psychological counseling datasets suffer from insufficient authenticity and a lack of deep empathy, as their "user questions" are mostly artificially synthesized or templated, while the "AI responses" lack human touch. To address this issue, this paper proposes AURADIAL, a large-scale, human-centered Chinese AI-powered psychological counseling dialogue dataset containing over 300,000 single-turn and over 90,000-turn dialogues.
+
   * **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -52,34 +93,11 @@ A curated list of papers, projects, and resources at the intersection of large l
 
     To be updated.
 
-  * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
+  * **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
 
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
-
-    > Source: EMNLP 2025 Findings [[Link]](https://aclanthology.org/2025.findings-emnlp.543/)
-    
-    The CATCH framework aims to address the challenges in existing AI consultation research, the low fidelity of treatment and the inability to capture the decision-making principles behind each response due to the one-time generation of multiple dialogue samples. It consists of two core components: a progressive dialogue synthesis strategy and a memory-driven dynamic planning (MDP) thinking model.
-
-  * **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
-
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-
-    > Source: EMNLP 2025 Main [[Link]](http://aclanthology.org/2025.emnlp-main.1245/)
+    > Source: NAACL 2025 Main [[Link]](https://aclanthology.org/2025.naacl-long.250/)
 
     To be updated.
-
-  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
-
-    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
-
-    > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1652/)
-    
-    Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
 
   * **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
 
@@ -90,6 +108,12 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: arxiv  (2025.07.10) [[Link]](https://arxiv.org/abs/2507.07509)
     
     To address the problems of scarcity of Chinese psychological counseling dialogue data and the "routinized" responses of existing large models, this work constructed a large-scale, high-quality Chinese Psychological Support Dialogue Dataset (CPSDD) by combining expert knowledge and large-scale language models, and proposed a dialogue system (CADSS) consisting of four intelligent agents (Profiler, Summarizer, Planner, Supporter) to provide more accurate and empathetic psychological support.
+
+  * **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
+
+    > Source: NAACL 2025 Main [[Link]](https://aclanthology.org/2025.naacl-long.250/)
+
+    To be updated.
 
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 

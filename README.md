@@ -38,7 +38,7 @@ A curated list of papers, projects, and resources at the intersection of large l
   * **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Multi-Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
 
     > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.751/)
     
@@ -46,7 +46,7 @@ A curated list of papers, projects, and resources at the intersection of large l
 
   * **Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions**
 
-    ![Multimodal](https://img.shields.io/badge/Multi-Modal-magenta)
+    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
 
     > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1664/)
 

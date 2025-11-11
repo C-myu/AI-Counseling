@@ -39,17 +39,17 @@
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
 
-    > Source: EMNLP 2025 Findings [[Link]](https://arxiv.org/abs/2509.25733) 
+    > Source: EMNLP 2025 Findings [[链接]](https://aclanthology.org/2025.findings-emnlp.543/) 
     
     旨在解决现有AI咨询研究中，一次性生成多轮对话样本导致治疗保真度低和无法捕捉每个回应背后决策原理的挑战。CATCH框架包含两个核心组成部分：渐进式对话合成（Progressive Dialogue Synthesis）策略和记忆驱动的动态规划（Memory-Driven Dynamic Planning, MDP）思维模式。
 
-  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues** `Data Synthesis` `Scripts Generation` `Specific Therapy`
+  * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
     
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
-    > 来源：EMNLP 2025 Main / arXiv (2504.17238) [[链接]](https://arxiv.org/abs/2504.17238)
+    > 来源：EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.1652/)
     
     针对认知重构（Cognitive Restructuring, CR）这一心理治疗过程，提出了一个创新的对话框架 CRDial。该框架通过精心设计的识别与重构阶段来创建多轮对话，并由此生成了一个大规模、高质量的双语对话数据集 Crisp，用于训练认知重构对话大模型 Crispers。
 
@@ -130,7 +130,7 @@
     ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
     ![Clinical Diagnostic](https://img.shields.io/badge/Clinical_Diagnostic-yellowgreen)
 
-    > Source: AAAI2025 / arXiv (2024.11) [[Link]](https://arxiv.org/abs/2408.12142)
+    > Source: AAAI2025 / arXiv (2024.11) [[链接]](https://arxiv.org/abs/2408.12142)
     
     构建了目前规模最大的心理疾病诊断对话数据集 MDD-5k。该数据集通过神经-符号混合的多智能体框架生成，利用 1000 个真实匿名化的精神科病例，合成了 5000 条高质量、内容详实的医患诊断对话，并附有诊断结论和治疗建议等标签。这是首个带标注的中文心理障碍诊断对话数据集。人工评估显示，MDD-5k 数据集中合成的对话在很大程度上模拟了人类精神科诊断过程。
 
@@ -156,7 +156,7 @@
     
     ![Patient simulation](https://img.shields.io/badge/Patient_Simulation-red)
 
-    > Source: EMNLP 2024 Main [[Link]](https://aclanthology.org/2024.emnlp-main.711/)
+    > Source: EMNLP 2024 Main [[链接]](https://aclanthology.org/2024.emnlp-main.711/)
     
     提出了PATIENT-Ψ，这是一个利用大型语言模型（LLMs）基于Prompt模拟患者以训练心理健康专业人士进行认知行为疗法（CBT）的新框架。通过构建基于CBT原则的多样化患者认知模型，并将其与LLMs结合，创建了能够模拟真实患者沟通行为的PATIENT-Ψ。
 
@@ -201,7 +201,7 @@
 
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
     
-    > Source: CSCWD 2024 [[Link]](https://arxiv.org/abs/2312.04262)
+    > Source: CSCWD 2024 [[链接]](https://arxiv.org/abs/2312.04262)
     
     提出了一个名为PsyChat的客户端中心对话系统，旨在通过在线聊天提供心理健康支持。PsyChat包含五个模块：客户端行为识别、咨询策略选择、输入打包器、响应生成器和响应选择，旨在在与用户真实互动时，能够动态地理解用户行为并生成最恰当的回复。
 

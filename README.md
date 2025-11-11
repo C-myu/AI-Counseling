@@ -24,7 +24,7 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: arXiv (2025.09.04) [[Link]](https://arxiv.org/abs/2509.04183)
     
     Proposes a novel multi-agent framework MAGneT for generating synthetic mental health counseling dialogues. The framework decomposes the counselor's response generation task into subtasks collaboratively handled by multiple specialized LLM agents (responsible for reflecting, questioning, providing solutions, and other key psychological techniques) to better capture the structure and nuances of real counseling sessions.
-
+  
   * **DiaCBT: A Long-Periodic Dialogue Corpus Guided by Cognitive Conceptualization Diagram for CBT-based Psychological Counseling**
     
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -35,6 +35,23 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     This work constructed a DiaCBT psychological counseling dialogue dataset consisting of multiple sessions was constructed. Cognitive concept maps were introduced to simulate more realistic clients, and manually annotated real CBT dialogue cases were used as few-shots to guide the model in data synthesis.
 
+  * **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Multi-Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+
+    > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.751/)
+    
+    To be updated.
+
+  * **Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions**
+
+    ![Multimodal](https://img.shields.io/badge/Multi-Modal-magenta)
+
+    > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1664/)
+
+    To be updated.
+
   * **CATCH: A Novel Data Synthesis Framework for High Therapy Fidelity and Memory-Driven Planning Chain of Thought in AI Counseling**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -42,9 +59,17 @@ A curated list of papers, projects, and resources at the intersection of large l
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
     ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
 
-    > Source: EMNLP 2025 Findings [[Link]](https://arxiv.org/abs/2509.25733)
+    > Source: EMNLP 2025 Findings [[Link]](https://aclanthology.org/2025.findings-emnlp.543/)
     
     The CATCH framework aims to address the challenges in existing AI consultation research, the low fidelity of treatment and the inability to capture the decision-making principles behind each response due to the one-time generation of multiple dialogue samples. It consists of two core components: a progressive dialogue synthesis strategy and a memory-driven dynamic planning (MDP) thinking model.
+
+  * **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
+
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: EMNLP 2025 Main [[Link]](http://aclanthology.org/2025.emnlp-main.1245/)
+
+    To be updated.
 
   * **CRISP: Cognitive Restructuring of Negative Thoughts through Multi-turn Supportive Dialogues**
 
@@ -52,7 +77,7 @@ A curated list of papers, projects, and resources at the intersection of large l
     ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
-    > Source: EMNLP 2025 Main / arXiv (2504.17238) [[Link]](https://arxiv.org/abs/2504.17238)
+    > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1652/)
     
     Addresses the cognitive restructuring (CR) process in psychotherapy by proposing an innovative dialogue framework CRDial. This framework creates multi-turn dialogues through carefully designed identification and restructuring stages, and generates a large-scale, high-quality bilingual dialogue dataset Crisp for training cognitive restructuring dialogue large model Crispers.
 

@@ -99,13 +99,7 @@ A curated list of papers, projects, and resources at the intersection of large l
 
     > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1664/)
 
-    To be updated.
-
-  * **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
-
-    > Source: NAACL 2025 Main [[Link]](https://aclanthology.org/2025.naacl-long.250/)
-
-    To be updated.
+    Current large language models (LLMs) used in AI-assisted psychotherapy mostly rely solely on text, neglecting crucial nonverbal emotional cues (such as facial expressions and tone of voice) during therapy. To address this issue, this work constructs a multimodal dataset containing 1441 publicly available psychotherapy (role-playing) videos and proposes a computational concept of "emotional dissonance," where facial expressions and tone of voice convey inconsistent emotions. This "dissonance" signal is then used to design novel prompting strategies. Furthermore, the study finds that the automated assessments of LLMs (such as GPT-4) significantly deviate from human expert judgments, highlighting the necessity of human expert evaluation in this field.
 
   * **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
 
@@ -119,9 +113,14 @@ A curated list of papers, projects, and resources at the intersection of large l
 
   * **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
 
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
     > Source: NAACL 2025 Main [[Link]](https://aclanthology.org/2025.naacl-long.250/)
 
-    To be updated.
+    Existing large models used in psychological counseling only focus on the text modality, ignoring non-text modal information in the real world. To address this gap, this work constructs a multi-turn counseling dialogue dataset, M2CoSC, which includes an image modality. Each multi-turn dialogue is accompanied by an image with the client's facial expressions. A multi-hop reasoning method for psychological counseling is proposed to identify and merge subtle counseling cues.
 
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 

@@ -99,7 +99,7 @@
 
     > 来源: EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.1664/)
 
-    To be updated.
+    当前用于AI辅助心理治疗的大语言模型（LLMs）大多只依赖文本，忽视了治疗过程中至关重要的非语言情感线索（如面部表情和声音语调）。为了解决这个问题，这个工作构建了一个包含1441个公开心理治疗（角色扮演）视频的多模态数据集，并提出了一个“情绪失调”（Emotional Dissonance）的计算概念，即面部表情和声音语调所传达的情绪不一致，并利用这种“失调”信号来设计新的提示策略（Prompting）。此外，该研究还发现，LLM（如GPT-4）的自动评估结果与人类专家的判断严重不符，凸显了在该领域进行人类专家评估的必要性。
 
   * **Toward Real-World Chinese Psychological Support Dialogues: CPsDD Dataset and a Co-Evolving Multi-Agent System**
 
@@ -113,9 +113,14 @@
 
   * **Multimodal Cognitive Reframing Therapy via Multi-hop Psychotherapeutic Reasoning**
 
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
     > 来源: NAACL 2025 Main [[链接]](https://aclanthology.org/2025.naacl-long.250/)
 
-    To be updated.
+    现有的大模型用于心理咨询的工作只关注与文本模态，忽略了真实世界中的非文本模态信息，为了解决这个差距，这个工作构建了一个包含图片模态的多轮咨询对话数据 M2CoSC —— 每一个多轮对话会配上一张具有来访者表情信息的图片，并提出了一种多跳的心理咨询推理方法，用于识别合并细微的咨询线索。
 
   * **DeepPsy-Agent: A Stage-Aware and Deep-Thinking Emotional Support Agent System**
 

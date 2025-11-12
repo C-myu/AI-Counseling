@@ -58,6 +58,7 @@ A curated list of papers, projects, and resources at the intersection of large l
 
   * **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
 
+    ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
     ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
     > Source: EMNLP 2025 Main [[Link]](http://aclanthology.org/2025.emnlp-main.1245/)
@@ -65,6 +66,11 @@ A curated list of papers, projects, and resources at the intersection of large l
     Current LLMs for mental health lack realism in simulating professional psychotherapy (especially narrative therapy), and existing assessment methods are ineffective in tracking treatment progress. To address these issues, this work propose a framework comprising two core components: the INT framework, which uses a planning process based on therapy theory and incorporates RAG to generate expert-level therapeutic responses; and the IMA, which objectively assesses treatment progress and effectiveness by identifying and quantifying the salience of "Innovative Moments" (IMs) in client discourse that foreshadow positive change.
 
   * **PanicToCalm: A Proactive Counseling Agent for Panic Attacks**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)  
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Chain-of-Thought](https://img.shields.io/badge/Chain_of_thought-orange)
 
     > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.649/)
 
@@ -79,15 +85,17 @@ A curated list of papers, projects, and resources at the intersection of large l
   * **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
 
     > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.751/)
     
-    To be updated.
+    Pure text-based AI psychotherapists often fail when faced with client resistance because they cannot detect nonverbal cues such as sighs, frowns, or averted gazes, leading to a breakdown in the therapeutic alliance. To address this issue, this work constructed a synthetic multimodal dataset called MIRROR. This dataset uses AI to synthesize thousands of counseling dialogues, in which each round of client speech is accompanied by a corresponding AI-generated facial expression image to simulate different states of resistance.
 
   * **Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions**
 
-    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
 
     > Source: EMNLP 2025 Main [[Link]](https://aclanthology.org/2025.emnlp-main.1664/)
 

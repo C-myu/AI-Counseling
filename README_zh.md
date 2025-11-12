@@ -55,8 +55,8 @@
 
   * **Reframe Your Life Story: Interactive Narrative Therapist and Innovative Moment Assessment with Large Language Models**
 
-    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
     ![Dialogue System](https://img.shields.io/badge/Dialogue_system-yellow)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
 
     > 来源: EMNLP 2025 Main [[链接]](http://aclanthology.org/2025.emnlp-main.1245/)
 
@@ -85,15 +85,17 @@
   * **Mirror: Multimodal Cognitive Reframing Therapy for Rolling with Resistance**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
-    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+    ![Scripts Generation](https://img.shields.io/badge/Scripts_Generation-green)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
 
     > 来源: EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.751/)
     
-    To be updated.
+    纯文本的 AI 心理治疗师在面对客户的“阻抗”（resistance）时常常失败，因为它们无法感知到客户叹气、皱眉或转移目光等非语言线索，这会导致治疗联盟的破裂。为了解决这一问题，作者构建了一个名为 MIRROR 的 合成多模态数据集。该数据集通过 AI 合成了数千个咨询对话，其中每一轮客户的发言都配有相应的人工智能生成的面部表情图像，以模拟不同的阻抗状态。
 
   * **Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions**
 
-    ![Multi Modal](https://img.shields.io/badge/Multi-Modal-magenta)
+    ![Multi Modal](https://img.shields.io/badge/Multi_Modal-magenta)
 
     > 来源: EMNLP 2025 Main [[链接]](https://aclanthology.org/2025.emnlp-main.1664/)
 

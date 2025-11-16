@@ -282,6 +282,16 @@
     
     针对情感支持对话系统缺乏可解释性的问题，提出了一个名为 ESCoT 的生成方案。该方案模仿人类"识别情绪-理解情绪-调节情绪"的过程，通过构建带有思维链（Chain-of-Thought）的新数据集，旨在增强对话系统响应的可解释性和可靠性。
 
+  * **HealMe: Harnessing Cognitive Reframing in Large Language Models for Psychotherapy**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Interactive Generation](https://img.shields.io/badge/Interactive_Generation-pin)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > 来源: ACL 2024 Main [[链接]](https://aclanthology.org/2024.acl-long.93/)
+
+    以往用于“认知重构”(cognitive reframing) 的LLM方法大多局限于简单的句子改写（例如，将消极情绪转为积极情绪），这种方式效果有限，且无法真正引导客户实现自我发现。这个工作提出了一种采用交互式生成构建多轮认知重构对话的数据的方法。
+
   * **Towards Conversational Diagnostic AI**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -323,6 +333,15 @@
     > 来源: ACL 2023 Main [[链接]](https://aclanthology.org/2023.acl-long.577/)
     
     这篇论文创建了一个标注框架，专门用来分类和理解来访者对咨询师话语的反应（如积极或消极）。通过在一个大型真实对话数据集上应用此框架，他们分析了来访者的不同反应如何影响最终咨询效果，以及咨询师应如何根据这些反应调整策略 。
+
+  * **Training Models to Generate, Recognize, and Reframe Unhelpful Thoughts**
+
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > 来源: ACL 2023 Main [[链接]](https://aclanthology.org/2023.acl-long.763.pdf)
+
+    招募人工基于 PERSONA-CHAT 中的人物角色创作了一个认知重构的数据集，对于每个角色包含不健康的思维，不健康的思维类别以及重塑后的思维。基于数据集以微调训练和提示的方式让模型能够完成不健康思维生成，不健康思维分类以及不健康思维重塑三种类型的任务。
 
   * **MindChat**
 

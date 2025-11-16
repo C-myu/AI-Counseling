@@ -286,6 +286,15 @@ A curated list of papers, projects, and resources at the intersection of large l
     
     Addresses the lack of interpretability in emotional support dialogue systems by proposing an ESCoT generation scheme. This scheme mimics the human process of "emotion recognition - emotion understanding - emotion regulation" by constructing a new dataset with chain-of-thought (Chain-of-Thought) to enhance the interpretability and reliability of dialogue system responses.
 
+  * **HealMe: Harnessing Cognitive Reframing in Large Language Models for Psychotherapy**
+
+    ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: ACL 2024 Main [[Link]](https://aclanthology.org/2024.acl-long.93/)
+
+    Previous LLM methods used for "cognitive reframing" have mostly been limited to simple sentence rewriting (e.g., converting negative emotions into positive ones). This approach has limited effectiveness and fails to truly guide clients towards self-discovery. This work proposes a method that uses interactive generation to construct data for multi-turn cognitive reframing dialogues.
+
   * **Towards Conversational Diagnostic AI**
 
     ![Data Synthesis](https://img.shields.io/badge/Data_Synthesis-blue)
@@ -331,6 +340,15 @@ A curated list of papers, projects, and resources at the intersection of large l
     > Source: ACL 2023 Main [[Link]](https://aclanthology.org/2023.acl-long.577/)
     
     This paper develops a annotation framework specifically designed to classify and understand the client's reactions (e.g., positive or negative) to counselors' utterances. By applying this framework to a large dataset of real-world conversations——Xinling, they analyze how different client reactions influence the final counseling outcome and how counselors can adjust their strategies based on these reactions.
+
+  * **Training Models to Generate, Recognize, and Reframe Unhelpful Thoughts**
+
+    ![Data Collection](https://img.shields.io/badge/Data_Collection-deepskyblue)
+    ![Specific Therapy](https://img.shields.io/badge/Specific_Therapy-purple)
+
+    > Source: ACL 2023 Main [[Link]](https://aclanthology.org/2023.acl-long.763.pdf)
+
+    This work recruited real people to create a cognitive reconstruction dataset based on characters from the Persona-Chat series. For each character, the dataset included unhealthy thought patterns, categories of unhealthy thought patterns, and reconstructed thought patterns. Based on this dataset, the model was fine-tuned and trained using prompts to enable it to complete three types of tasks: generating unhealthy thoughts, classifying unhealthy thoughts, and reconstructing unhealthy thoughts.
 
   * **MindChat**
 
